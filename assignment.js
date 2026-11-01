@@ -91,3 +91,5 @@ function averageScore(students) {
 
 console.log("===== AVERAGE SCORE =====");
 console.log(averageScore(students));
+document.getElementById("allStudents").innerHTML =
+    allStudentsHTML.join("");
